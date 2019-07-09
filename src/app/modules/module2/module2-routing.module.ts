@@ -5,10 +5,7 @@ import { PortfolioComponent } from 'src/app/plugincomponents/portfoliocomponent/
 
 
 const routes: Routes = [{
-  path: "", component: Module2Component
-},
-{
-  path: "portfolio", component: PortfolioComponent
+  path: "", component: PortfolioComponent
 }];
 
 @NgModule({

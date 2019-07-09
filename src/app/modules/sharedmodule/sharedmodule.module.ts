@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedmoduleComponent } from './sharedmodule.component';
+import { AboutComponent } from 'src/app/plugincomponents/aboutcomponent/about.component';
+import { PortfolioComponent } from 'src/app/plugincomponents/portfoliocomponent/portfolio.component';
 
 
 
 @NgModule({
-  declarations: [SharedmoduleComponent],
+  declarations: [AboutComponent,PortfolioComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [AboutComponent,PortfolioComponent]
 })
 export class SharedmoduleModule { }

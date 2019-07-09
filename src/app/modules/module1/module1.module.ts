@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { Module1Component } from './module1.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { Module1RoutingModule } from './module1-routing.module';
-import { AboutComponent } from 'src/app/plugincomponents/aboutcomponent/about.component';
-import { PortfolioComponent } from 'src/app/plugincomponents/portfoliocomponent/portfolio.component';
+import { SharedmoduleModule } from '../sharedmodule/sharedmodule.module';
 
 @NgModule({
-  declarations: [Module1Component,AboutComponent],
+  declarations: [Module1Component],
   imports: [
     BrowserModule,
+    SharedmoduleModule,
     Module1RoutingModule
   ],
   providers: [],

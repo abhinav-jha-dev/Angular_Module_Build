@@ -8,20 +8,7 @@ import { Module2Module } from './app/modules/module2/module2.module';
 if (environment.production) {
   enableProdMode();
 }
-console.log(value())
-platformBrowserDynamic().bootstrapModule(Module1Module)
+
+
+platformBrowserDynamic().bootstrapModule(Module2Module)
       .catch(err => console.error(err));
-
-
-function value(){
-  switch (environment.moduleId) {
-    case 123:
-      return Module1Module;
-    case 456:
-      return Module2Module;
-    default:
-      return Module2Module;
-  }
-}
-
-
