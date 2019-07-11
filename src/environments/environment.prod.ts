@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  moduleId:123
+  moduleName:'module2'
 };

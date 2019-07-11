@@ -5,7 +5,7 @@
 
 export const environment = {
   production: false,
-  moduleId:123
+  moduleName:'module2'
 };
 
 /*

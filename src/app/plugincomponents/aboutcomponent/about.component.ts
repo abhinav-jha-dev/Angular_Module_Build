@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-about',
-  templateUrl: '../../modules/module1/component-templates/about-template/about.component.html', // Please verify this template URL
-  styleUrls: ['./about.component.scss']
+  templateUrl: '../../modules/'+environment.moduleName+'/component-templates/about-template/about.component.html',
+  styleUrls: ['../../modules/'+environment.moduleName+'/component-templates/about-template/about.component.scss']
 })
 export class AboutComponent implements OnInit {
 

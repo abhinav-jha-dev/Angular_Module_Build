@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  templateUrl: '../../modules/'+environment.moduleName+'/component-templates/portfolio-template/portfolio.component.html',
+  styleUrls: ['../../modules/'+environment.moduleName+'/component-templates/portfolio-template/portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
 
