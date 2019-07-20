@@ -5,7 +5,8 @@
 
 export const environment = {
   production: false,
-  moduleName:'module2'
+  moduleName:'module2',
+  baseUri : 'http://localhost:5003'
 };
 
 /*
